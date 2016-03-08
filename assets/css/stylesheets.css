@@ -6,6 +6,7 @@
 
 a, a:visited {
     color: inherit;
+    color:#4D4D4D;
 }
 
 a:link 
@@ -21,7 +22,7 @@ a:link
 	padding: 0;	
 }
 
-.container{
+.container {
 	width: 1200px;
 	min-height: 475px;
 	max-height: 750px;
@@ -72,7 +73,7 @@ a:link
     background-color: #DEECD5;
 }
 
-.menuli_current{
+.menuli_current {
 	display: inline-block;
 	height: 100%;
 	padding: 20px 25px;
@@ -89,6 +90,21 @@ a:link
 	height: 100%;
 	float: left;
 	margin-left: 400px;
+}
+
+.profile {
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+#profile_box{
+	width: 54px;
+	height: 55px;
+	margin: 7px 20px;
+	background-color: #FFC481;
+	border-radius: 2px;
+
 }
 
 .section {
