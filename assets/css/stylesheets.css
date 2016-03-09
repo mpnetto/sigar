@@ -88,12 +88,29 @@ html, body {
 .departments {
 	width: 31%;
 	height: 200px;
-	background-color: red;
+	background-color: white;
 	display: inline-block;
 	margin: 1%;
 }
 
 .depima {
+	display: inline-block;
 	width: 50%;
-	height: 50%;
+	height: 100%;
+	float: left;
+	border-radius: 10px;
+}
+
+.h4deps {
+	display: block;
+}
+
+.depdiv {
+	display: inline-block;
+	float: right;
+	margin-left: 20px;
+}
+
+.butedit {
+	margin-left: 20px;
 }
