@@ -65,12 +65,20 @@ html, body {
 #butadd {
 	float: right;
 	margin: 10px;
-	background-color: #32cd32;
 	width: 150px;
 	border-radius: 10px;
 	height: 40px;
 	color: #ffffff;
 	font-size: 20px;
+	background: #71da71;
+	transition-property: background;
+	transition-duration: 0.33333333333333333333333333333333333333333333333333333333333333333333333334s;
+	transition-timing-function: linear;
+	border: none;
+}
+
+#butadd:hover {
+	background: #008000;
 }
 
 #line {
@@ -103,14 +111,27 @@ html, body {
 
 .h4deps {
 	display: block;
+	font-family: serif;
+	font-weight: bold;
 }
 
 .depdiv {
 	display: inline-block;
 	float: right;
-	margin-left: 20px;
+	width: 45%;
 }
 
 .butedit {
-	margin-left: 20px;
+	background: #71da71;
+	transition-property: background;
+	transition-duration: 0.33333333333333333333333333333333333333333333333333333333333333333333333334s;
+	transition-timing-function: linear;
+	border: none;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+}
+
+.butedit:hover {
+	background: #008000;
 }
