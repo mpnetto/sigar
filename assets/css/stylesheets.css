@@ -1,3 +1,9 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 html, body {
 	margin: 0px;
 	background-color: #ebebeb;
@@ -17,13 +23,11 @@ html, body {
 #logo {
 	height: 100%;
 	float: left;
-	margin-left: 60px;
 }
 
 #nav1 {
 	height: 100%;
-	float: left;
-	margin-left: 400px;
+	float: right;
 }
 
 #menulist {
@@ -31,6 +35,8 @@ html, body {
 	padding: 0;
 	height: 100%;
 	color: #666666;
+	float: right;
+	margin-right: 10px;
 }
 
 .menuli {
@@ -75,6 +81,7 @@ html, body {
 	transition-duration: 0.33333333333333333333333333333333333333333333333333333333333333333333333334s;
 	transition-timing-function: linear;
 	border: none;
+	margin-top: 5px;
 }
 
 #butadd:hover {
@@ -98,7 +105,7 @@ html, body {
 	height: 200px;
 	background-color: white;
 	display: inline-block;
-	margin: 1%;
+	padding: 1%;
 }
 
 .depima {
@@ -130,6 +137,7 @@ html, body {
 	padding: 10px;
 	color: white;
 	border-radius: 10px;
+	margin-top: 5px;
 }
 
 .butedit:hover {
